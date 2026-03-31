@@ -1,0 +1,54 @@
+body {
+  background: #f1f5f9;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+}
+
+.scratch-container {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
+}
+
+.card {
+  position: relative;
+  width: 260px;
+  height: 160px;
+  margin: 15px auto;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.reward {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reward img {
+  width: 48px;
+}
+
+canvas {
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+}
+
+#success {
+  display: none;
+  color: #16a34a;
+  font-weight: bold;
+  margin-top: 10px;
+}
